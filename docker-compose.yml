@@ -1,0 +1,17 @@
+# This file is part of DisMu.
+# Licensed under the GNU GPL v3 or later – see LICENSE.md for details.
+
+name: DisMu
+
+services:
+  dismu:
+    build: .
+    image: dismu
+    container_name: music-bot
+    restart: no
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - DEFAULT_DELETE_TIME=${DEFAULT_DELETE_TIME}
+      - DEFAULT_PREFIX=${DEFAULT_PREFIX}
+      - EMBED_AUTODELETE=${EMBED_AUTODELETE}
+      - SEARCH_TIMEOUT=${SEARCH_TIMEOUT}
