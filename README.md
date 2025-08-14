@@ -150,7 +150,7 @@ Once the bot is running and invited to your server:
 3. **Play music**: `%play <YouTube URL>` or `%search <song name>`
 4. **Explore commands**: Use `%help` to see all available commands
 
-> **📚 For detailed command documentation, visit our [Wiki](https://github.com/giabb/DisMu/wiki)**
+> **📚 For detailed command documentation, visit the [Wiki](https://github.com/giabb/DisMu/wiki/Extensive-Command-Guide)**
 
 ## ⚠️ Known Issues
 
