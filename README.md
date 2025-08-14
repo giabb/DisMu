@@ -1,15 +1,21 @@
-# DisMu 🎵
-
 <div align="center">
+<h1>DisMu</h1>
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; border: none;">
+<div>
+<img src="https://i.ibb.co/gZf37YW8/DisMu.png" alt="Bot Logo" width="150">
+</div>
+<div>
 
 **A powerful Discord Music Bot with comprehensive audio playback capabilities**
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-GPL%203.0-red.svg)](LICENSE.md)
+[![License](https://img.shields.io/badge/License-GPL%203.0-red.svg)](LICENSE.md) 
 [![Docker](https://img.shields.io/badge/Docker-Supported-blue.svg)](https://docker.com)
 
-[Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Contributing](#-configuration)
 
+</div>
+</div>
 </div>
 
 ---
