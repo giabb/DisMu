@@ -105,14 +105,12 @@
 docker compose up --build -d
 ```
 
-**View Logs:**
+**Reference for other docker compose commands:**
 ```bash
-docker compose logs -f
-```
-
-**Stop the Bot:**
-```bash
-docker compose down
+docker compose logs -f  # View logs in real time
+docker compose down     # Stop and remove the container
+docker compose stop     # Stop the container
+docker compose restart  # Restart the container (if stopped)
 ```
 
 ### 🔧 **Manual Installation**
@@ -121,18 +119,21 @@ docker compose down
    
    **Using pip:**
    ```bash
+   python -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
    ```
    
    **Using Poetry:**
    ```bash
-   poetry install
-   poetry shell
+   poetry config virtualenvs.in-project true # This will create the .venv folder inside the project
+   poetry install --no-root
+   source .venv/bin/activate
    ```
 
 2. **Run the bot**
    ```bash
-   python src/main.py
+   python -m src.main
    ```
 
 ## ⚙️ Configuration

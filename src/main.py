@@ -21,7 +21,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
-from utility.helpers import send_and_delete
+from src.utility.helpers import send_and_delete
 
 os.environ["FFMPEG_LOGLEVEL"] = "quiet"
 logging.basicConfig(level=logging.INFO)
