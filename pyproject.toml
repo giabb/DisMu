@@ -1,3 +1,8 @@
+[tool.poetry]
+packages = [
+    {include = "*", from = "src"}
+]
+
 [project]
 name = "DisMu"
 version = "0.1.0"
@@ -7,11 +12,11 @@ authors = [
 ]
 license = {text = "GPL-3.0"}
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
     "discord.py",
-    "PyNaCl~=1.5.0",
-    "python-dotenv~=1.1.1",
+    "PyNaCl~=1.6.2",
+    "python-dotenv~=1.2.1",
     "yt_dlp"
 ]
 
